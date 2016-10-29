@@ -1,0 +1,230 @@
+    1  pwd
+    2  ls -l
+    3  git config --global user.name "Phillipe Burgos"
+    4  git config --global user.email phillipeb2@gmmail.com
+    5  git config user.name
+    6  pwd
+    7  mkdir GIT
+    8  ls -l
+    9  cd Dropbox/Cassia/
+   10  mkdir gitEstudo
+   11  gitinit
+   12  git initi
+   13  git init
+   14  ls-a
+   15  ls
+   16  cd gitEstudo
+   17  git init
+   18  ls -l
+   19  ls -la
+   20  git status
+   21  git add *c
+   22  git add *.c
+   23  git add LICENSE
+   24  ls -l
+   25  git add treino/
+   26  git status
+   27  git branch 
+   28  ls -la
+   29  git commit
+   30  git commit -m "firt commit"
+   31  pwd
+   32  cd Dropbox/
+   33  cd Cassia
+   34  cd gitEstudo
+   35  ls -la
+   36  git status
+   37  git init
+   38  git status
+   39  echo "iniciar"
+   40  echo "iniciar" > texto.txt
+   41  git status
+   42  git status
+   43  mkdir projeto1
+   44  git status
+   45  echo "iniciar" > texto.txt
+   46  cat texto.txt 
+   47  echo "" > index.html
+   48  echo "Git" > texto.txt
+   49  echo "casa"  >> texto.txt
+   50  mkdir qualquerMerdaAiMermo
+   51  mv index.html qualquerMerdaAiMermo/
+   52  mv texto.txt projeto1/
+   53  git status
+   54  cd ..
+   55  mv gitEstudo/ ../../Desktop/
+   56  ls -l
+   57  cd ../../Desktop/
+   58  ls -l | grep gitEstudo
+   59  ls -l | grep gi
+   60  cd gitEstudo/
+   61  git status
+   62  cd ../
+   63  ls -l
+   64  pwd
+   65  ls -l
+   66  cd Desktop/
+   67  ls -l
+   68  ls -la
+   69  cd gitProject/
+   70  ls -l
+   71  git init
+   72  git status
+   73  git status
+   74  git add projeto1/ qualquerMerdaAiMermo/
+   75  git status
+   76  git status
+   77  git rm --cached qualquerMerdaAiMermo/cadeira.txt 
+   78  git status
+   79  git status
+   80  git rm --cached qualquerMerdaAiMermo/index.html 
+   81  git status
+   82  mv qualquerMerdaAiMermo/ coisa
+   83  ls  -l
+   84  git status
+   85  git status
+   86  git commit -m "Mudanças de nome e criação de arquivo"
+   87  git stauts
+   88  git status
+   89  git add .gitignore 
+   90  git status
+   91  git commit -m "Enviei o gitigore"
+   92  git log
+   93  cd ../
+   94  cd ~
+   95  ls -l
+   96  cd document
+   97  cd Documents/
+   98  ls -la
+   99  cd FREELANCER/
+  100  cd siteDialogo/
+  101  mkdir css img js
+  102  ls -l
+  103  git init
+  104  mkdir suport
+  105  echo "suport" > .gitignore
+  106  echo "suport" > .gitignore
+  107  ls -l
+  108  ls -la
+  109  git status
+  110  git add .gitignore
+  111  git commit -m "Criei o gitignore e coloco a pasta suport para ser ignorada"
+  112  git status
+  113  git status
+  114  git add index.html
+  115  history
+  116  git status
+  117  git status
+  118  git add index.html
+  119  git status
+  120  git status
+  121  git diff
+  122  git status
+  123  git diff
+  124  git add index.html
+  125  git status
+  126  git status
+  127  git diff
+  128  git checkout --index.html
+  129  git checkout index.html
+  130  git status
+  131  git history
+  132  history
+  133  ssh-keygen -t rsa
+  134  git remote add origin https://github.com/PhillipeBurgos/dialogoSite.git
+  135  git push -u origin master
+  136  git status
+  137  echo "ssh-keygen" >> .gtignore
+  138  echo "ssh-keygen.pub" >> .gtignore
+  139  cat .gitignore 
+  140  git status
+  141  git add .gitignore
+  142  git status
+  143  git reset HEAD index.html
+  144  git status
+  145  git add .gitignore 
+  146  git status
+  147  git status
+  148  git add .gitignore 
+  149  git status
+  150  git status
+  151  git commit -m "ignorado ssh"
+  152  git commit -am "ignorado ssh"
+  153  git status
+  154  git push
+  155  git push
+  156  git status
+  157  git add README.md 
+  158  git status
+  159  git commit -m "README do projeto"
+  160  git push origin master
+  161  wpd
+  162  pwd
+  163  ls -l
+  164  mkdir projeto
+  165  cd projeto
+  166  echo "# phillipeburgos" >> README.md
+  167  git init
+  168  git add README.md
+  169  git commit -m "first commit"
+  170  git remote add origin https://github.com/PhillipeBurgos/phillipeburgos.git
+  171  git push -u origin master
+  172  echo "phillipeburgos"
+  173  echo "phillipeburgos" > texto.txt
+  174  echo "phillipe burgos" > texto.txt
+  175  echo "phillipeburgos" >> texto.txt
+  176  mkdir layout
+  177  git status
+  178  ls -l
+  179  ls -la
+  180  echo "Site Pessoal"
+  181  echo "Site Pessoal">README.md 
+  182  gitstatus
+  183  git status
+  184  diff
+  185  git diff
+  186  git status
+  187  git diff
+  188  git status
+  189  echo "layout/"> .gitignore
+  190  git status
+  191  git add
+  192  git add .gitignore 
+  193  git status
+  194  git status
+  195  git commit -m "adicionando gitignore"
+  196  git log
+  197  git status
+  198  git add README.md 
+  199  git commit -m "Mudar nome de Readme"
+  200  git status
+  201  git log
+  202  git push origin  master
+  203  git branch
+  204  git checkout -m dev
+  205  git checkout -b dev
+  206  git branch
+  207  git branch config
+  208  git branch
+  209  git checkout config
+  210  git checkout dev
+  211  git branch
+  212  mkdir
+  213  mkdir css js img 
+  214  git checkout master
+  215  git status
+  216  git checkout dev
+  217  git status
+  218  git add -A
+  219  git status
+  220  git commit -m "Adicinado arquivos index, css, js"
+  221  git checkout master
+  222  git log
+  223  git checkout dev
+  224  git log
+  225  git checkout master
+  226  git merge dev
+  227  git push master
+  228  git push origin master
+  229  history
+  230  history > comandoz.txt
