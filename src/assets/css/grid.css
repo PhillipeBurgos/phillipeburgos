@@ -1,0 +1,73 @@
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+
+.coluna,
+.colunas {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; 
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%; 
+  }
+
+  .coluna,
+  .colunas {
+    margin-left: 4%; }
+  .coluna:first-child,
+  .colunas:first-child {
+    margin-left: 0; 
+  }
+
+  .uma.coluna,
+  .uma.colunas                  { width: 4.66666666667%; }
+  .duas.colunas                 { width: 13.3333333333%; }
+  .tres.colunas                 { width: 22%;            }
+  .quatro.colunas               { width: 30.6666666667%; }
+  .cinco.colunas                { width: 39.3333333333%; }
+  .seis.colunas                 { width: 48%;            }
+  .sete.colunas                 { width: 56.6666666667%; }
+  .oito.colunas                 { width: 65.3333333333%; }
+  .nove.colunas                 { width: 74.0%;          }
+  .dez.colunas                  { width: 82.6666666667%; }
+  .onze.colunas                 { width: 91.3333333333%; }
+  .doze.colunas                 { width: 100%; margin-left: 0; }
+
+  .um-terco.coluna              { width: 30.6666666667%; }
+  .dois-tercos.coluna           { width: 65.3333333333%; }
+
+  .metade.coluna                { width: 48%; }
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

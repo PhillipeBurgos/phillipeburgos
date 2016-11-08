@@ -1,105 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br" xmlns="http://www.w3c.org/1999/xhtml">
-<head>
-<link rel="stylesheet" href="css/all.css">
-	<meta charset="UTF-8">
-	<title>Site Phillipe Burgos</title>
-</head>
-<body>
-	<div class="cabecalho">
-	<figure>
-		<img src="" alt="Phillipe Burgos Designer">
-		</figure>
-	</div>
-	<header>
-	<div id="logo">
-	<figure>
-		<img src="" alt="Phillipe Burgos Designer">
-		</figure>
-	</div>
 
-	<section id="menu">
-		<nav>
-			<ul>
-				<li> <a href="#sobre">Sobre</a></li>
-				<li> <a href="#portfolio">Portfólio</a></li>
-				<li> <a href="#contato">Contato</a></li>
-			</ul>
-		</nav>
-		</section>
-	</header>
+	<head>
+		<meta charset="UTF-8">
+		<title>Phillipe Burgos - Designer</title>
+		<link rel="stylesheet" href="assets/css/normalize.css">
+		<link rel="stylesheet" href="assets/css/grid.css">
+		<link rel="stylesheet" href="assets/css/all.css">
+	</head>
 
-	<div id="content">
+	<body>
+		<header id="cabecalho">
+			<div class="container">
+				<section id="logo">
+					<img src="" alt="Phillipe Burgos Designer">
+				</section>
+
+				<section class="cabecalho-logo">
+					<a href=""><img src="" alt="Phillipe Burgos Designer"></a>
+				</section>
+
+				<nav id="menu">
+					<ul>
+						<li> <a href="#sobre">Sobre</a></li>
+						<li> <a href="#portfolio">Portfólio</a></li>
+						<li> <a href="#contato">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
 		<section id="sobre">
-			<h1>Quem sou eu</h1>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore veniam eligendi eum delectus eos, impedit reiciendis! Debitis esse totam cupiditate expedita nisi similique porro, nemo recusandae cum, repudiandae quibusdam exercitationem.
-			</p>
-		</section>
+			<div class="container">
+				<header>
+					<h1>Quem sou eu</h1>	
 
-		<section id="todos">
-			<h2>Todos os Projetos</h2>
-		</section>
+					<img src="" alt="">				
+				</header>
 
-		<section id="editorial">
-		<h2>Editorial</h2>	
-		</section>
-
-		<section id="branding">
-			<h2>Branding</h2>
-		</section>
-
-		<section id="social">
-			<h2>Social</h2>
-		</section>
-
-		<div id="comentario">
-			<figure>
-				<img src="" alt="Cliente">
-			</figure>
-			<h3>Nome do cliente</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quod nam necessitatibus quisquam, cum neque, asperiores porro tenetur sapiente, pariatur labore illum quidem vel quasi sint consequatur illo perspiciatis ipsam.</p>
-		</div>
-
-		<div id="comentario">
-			<figure>
-				<img src="" alt="Cliente">
-			</figure>
-			<h3>Nome do cliente</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quod nam necessitatibus quisquam, cum neque, asperiores porro tenetur sapiente, pariatur labore illum quidem vel quasi sint consequatur illo perspiciatis ipsam.</p>
-		</div>
-
-		<div id="comentario">
-			<figure>
-				<img src="" alt="Cliente">
-			</figure>
-			<h3>Nome do cliente</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quod nam necessitatibus quisquam, cum neque, asperiores porro tenetur sapiente, pariatur labore illum quidem vel quasi sint consequatur illo perspiciatis ipsam.</p>
-		</div>
-
-		<section id="contato">
-			<figure>
-					<img src="" alt="logo">
-			</figure>
-			<form action="" method="post">
-				<label for="Nome"><input type="text" name="Nome" placeholder="Nome"/></label>
-				<label for="Email"><input type="email" name="Email" placeholder="E-mail"></label>
-				<label for="Telefone"><input type="text" name="Telefone" placeholder="Telefone"></label>
-				<label for="Vamos bater um papo?">
-				<textarea name="Vamos bater um papo?" rows="5"  placeholder="Vamos bater um papo?">					
-				</textarea></label>
-			</form>
-			<div id="footer">
-				<footer>
-					<figure><img src="" alt="Facebook"><a href="" target="blank"></a></figure>	
-					<figure><img src="" alt="Instagram"><a href="" target="blank"></a></figure>
-					<figure><img src="" alt="Behance"><a href="" target="blank"></a></figure>
-					<figure><img src="" alt="Linkedin"><a href="" target="blank"></a></figure>
-				</footer>
+				<article>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore veniam eligendi eum delectus eos, impedit reiciendis! Debitis esse totam cupiditate expedita nisi similique porro, nemo recusandae cum, repudiandae quibusdam exercitationem.
+					</p>
+				</article>
 			</div>
 		</section>
 
-	</div>
+		<section id="portfolio">
+			<header class="container">
+				<nav>
+					<ul>
+						<li><a href="">Todos</a></li>
+						<li><a href="">Editorial</a></li>
+						<li><a href="">Branding</a></li>
+						<li><a href="">Social</a></li>
+					</ul>
+				</nav>
+			</header>
 
-</body>
+			<div class="portfolio-job portfolio-editorial"></div>
+			<div class="portfolio-job portfolio-editorial"></div>
+			<div class="portfolio-job portfolio-editorial"></div>
+			<div class="portfolio-job portfolio-branding"></div>
+			<div class="portfolio-job portfolio-branding"></div>
+			<div class="portfolio-job portfolio-branding"></div>
+			<div class="portfolio-job portfolio-social"></div>
+			<div class="portfolio-job portfolio-social"></div>
+			<div class="portfolio-job portfolio-social"></div>
+		</section>	
+
+		<div id="depoimento">
+			<div class="container">
+				<section class="depoimento-primeiro">
+					<header>
+						<figure>
+							<img src="" alt="Cliente">
+							<h3>Nome do cliente</h3>
+							<span>Cargo da pessoa</span>
+						</figure>		
+					</header>
+
+					<article>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quod nam necessitatibus quisquam, cum neque, asperiores porro tenetur sapiente, pariatur labore illum quidem vel quasi sint consequatur illo perspiciatis ipsam.</p>		
+					</article>
+				</section>
+
+				<section class="depoimento-segundo">
+					<header>
+						<figure>
+							<img src="" alt="Cliente">
+							<h3>Nome do cliente</h3>
+							<span>Cargo da pessoa</span>
+						</figure>		
+					</header>
+
+					<article>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quod nam necessitatibus quisquam, cum neque, asperiores porro tenetur sapiente, pariatur labore illum quidem vel quasi sint consequatur illo perspiciatis ipsam.</p>		
+					</article>
+				</section>
+			</div>
+		</div>
+
+		<section id="contato">
+			<div class="container">
+				<figure class="contato-logo metade coluna">
+					<img src="" alt="logo">
+				</figure>
+
+				<form action="" method="post" class="contato-form metade coluna">
+					<label for="Nome">Nome</label>
+					<input type="text" name="Nome" placeholder="Nome" />
+
+					<label for="Email">Email</label>
+					<input type="email" name="Email" placeholder="E-mail" />
+
+					<label for="Telefone">Telefone</label>
+					<input type="text" name="Telefone" placeholder="Telefone" />
+
+					<textarea name="Vamos bater um papo?" rows="5"  placeholder="Vamos bater um papo?">					
+					</textarea>
+				</form>
+			</div>
+		</section>
+
+		<footer id="rodape">
+			<div class="container">
+				<span>@2016 - Phillipe Burgos - Designer</span>
+
+				<figure><img src="" alt="link para a rede social Facebook"><a href="" target="blank"></a></figure>	
+				<figure><img src="" alt="link para a rede social Instagram"><a href="" target="blank"></a></figure>
+				<figure><img src="" alt="link para a rede social Behance"><a href="" target="blank"></a></figure>
+				<figure><img src="" alt="link para a rede social Linkedin"><a href="" target="blank"></a></figure>
+			</div>
+		</footer>
+	</body>
 </html>
