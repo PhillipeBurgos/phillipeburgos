@@ -62,7 +62,8 @@ var BUILD_PATH = {
 		gulp.src(SRC_PATH.css)
 			.pipe(plumber())
 			.pipe(cssmin())
-			.pipe(gulp.dest(BUILD_PATH.css));
+			.pipe(gulp.dest(BUILD_PATH.css))
+			.pipe(browsersync.stream());
 	});
 
 // Watch

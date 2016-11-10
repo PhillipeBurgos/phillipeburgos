@@ -1,0 +1,118 @@
+ /* Cores
+
+	azul-escuro: #0d1124;
+	verde-limão: #b8ff00;
+	cinza-claro: #f7f7f7;
+
+ ============================================================== */
+
+/* General
+============================================================== */
+*{
+	box-sizing: border-box;
+}
+
+.clearfix{
+	clear: both;
+}
+
+/* Header
+============================================================== */
+
+	/* Cabeçalho
+	=========================== */
+	#cabecalho{
+		background-color: #0d1124;
+	}
+
+	.cabecalho-logo{
+		text-align: center;
+	}
+
+	.cabecalho-logo img{
+		width: 400px;
+		margin-top: 150px;
+	}
+
+	.cabecalho-titulo{
+		color: #fff;
+		font-size: 2em;
+		margin-bottom: -5px
+	}
+
+	.cabecalho-subtitulo{
+		color: #fff;
+		font-size: 1em;
+		margin-bottom: 150px
+	}
+
+	/* Menu
+	=========================== */
+	#menu{
+		background-color: #f7f7f7;
+		width: 100%;
+		height: 100px;
+	}
+
+	.menu-item{
+		float: right;
+	}
+
+	.menu-item .menu-mobile{
+		list-style-type: none;
+	}
+
+	.menu-item .menu-mobile img{
+		display: none;
+	}
+
+	.menu-mobile ul li{
+		display: inline-block;
+		list-style-type: none;
+		margin-top: 25px
+	}
+
+	.menu-mobile ul li a{
+		color: #0d1124;
+		text-decoration: none;
+		padding-left: 30px;
+		transition: 500ms all ease;
+	}
+
+	.menu-mobile ul li a:hover{
+		color: #b8ff00;
+	}
+
+	.menu-logo{
+		float: left;
+	}
+
+	.menu-logo a img{
+		width: 70px;
+		height: 64px;
+		margin-top: 15px;
+	}
+
+/* About
+============================================================== */
+
+
+
+
+
+
+
+
+/* Portfolio
+============================================================== */
+
+
+
+
+
+
+
+
+
+/* Contato
+============================================================== 
