@@ -6,8 +6,19 @@
 
  ============================================================== */
 
+
 /* General
 ============================================================== */
+body{
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	color: #4d4d4d;
+}
+h1, h2, h3{
+	margin: 0;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
 *{
 	box-sizing: border-box;
 }
@@ -15,6 +26,7 @@
 .clearfix{
 	clear: both;
 }
+
 
 /* Header
 ============================================================== */
@@ -36,13 +48,14 @@
 
 	.cabecalho-titulo{
 		color: #fff;
-		font-size: 2em;
+		font-size: 3em;
 		margin-bottom: -5px
+	
 	}
 
 	.cabecalho-subtitulo{
 		color: #fff;
-		font-size: 1em;
+		font-size: 1.8em;
 		margin-bottom: 150px
 	}
 
@@ -99,14 +112,47 @@
 
 
 
+/* Serivços
+============================================================== */
+#servicos{
+	float: left;
 
+}
+#servicos p{
+text-align: center;
 
+		
+
+}
+#itensServico {
+	display: block;
+	display: inline-block;
+max-width: 200px;
+margin: 20px 10px;
+}
+#itensServico h3{
+	text-align: center;
+	}
+#itensServico p{
+text-align: justify;
+}
+#itensServico  figure img{
+ display: flex;
+ flex-direction: center;
+}
 
 
 /* Portfolio
 ============================================================== */
 
+#portfolio img{	
 
+position: relative;
+width: 300px;
+height: 300px;
+display: flex;
+float: left;
+}
 
 
 
@@ -115,4 +161,18 @@
 
 
 /* Contato
-============================================================== 
+============================================================== */
+
+	
+
+
+
+/*
+contato===========================================================
+*/
+
+#rodape{
+	position: relative;
+	float: left;
+
+}
