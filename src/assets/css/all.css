@@ -136,9 +136,9 @@ margin: 20px 10px;
 #itensServico p{
 text-align: justify;
 }
-#itensServico  figure img{
- display: flex;
- flex-direction: center;
+#itensServico  figure{
+position: relative;
+left: 20%
 }
 
 
